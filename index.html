@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Coffee & Bistro | Premium Cafe Experience</title>
+    <meta name="description" content="Experience the finest coffee and artisanal brunch at Aura Coffee & Bistro. Visit us for a cozy and premium atmosphere.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="#">AURA<span>.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="btn btn-primary">Book Table</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-bg">
+                <img src="assets/hero.png" alt="Aura Coffee & Bistro Interior">
+                <div class="overlay"></div>
+            </div>
+            <div class="hero-content container">
+                <h1 class="reveal-text">Elevate Your <span>Coffee</span> Ritual</h1>
+                <p class="fade-in">Discover a sanctuary of taste and tranquility in the heart of the city.</p>
+                <div class="hero-btns fade-in">
+                    <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                    <a href="#about" class="btn btn-outline">Our Story</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="container">
+            <div class="section-header">
+                <h2 class="reveal-text">Artisanal Selection</h2>
+                <div class="menu-tabs">
+                    <button class="tab-btn active" data-category="all">All</button>
+                    <button class="tab-btn" data-category="coffee">Coffee</button>
+                    <button class="tab-btn" data-category="brunch">Brunch</button>
+                    <button class="tab-btn" data-category="pastry">Pastry</button>
+                </div>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Coffee -->
+                <div class="menu-item" data-category="coffee">
+                    <div class="item-img">
+                        <img src="assets/latte.png" alt="Signature Latte">
+                        <span class="price">$5.50</span>
+                    </div>
+                    <div class="item-info">
+                        <h3>Velvet Signature Latte</h3>
+                        <p>House blend double shot espresso with silky micro-foam and Madagascar vanilla.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="coffee">
+                    <div class="item-img">
+                        <div class="placeholder-img" style="background: linear-gradient(45deg, #2c1e1e, #1a0f0f);">☕</div>
+                        <span class="price">$4.50</span>
+                    </div>
+                    <div class="item-info">
+                        <h3>Cold Brew Reserve</h3>
+                        <p>18-hour steep Ethiopian beans, served over crystal clear ice spheres.</p>
+                    </div>
+                </div>
+
+                <!-- Brunch -->
+                <div class="menu-item" data-category="brunch">
+                    <div class="item-img">
+                        <img src="assets/avocado_toast.png" alt="Avocado Toast">
+                        <span class="price">$14.00</span>
+                    </div>
+                    <div class="item-info">
+                        <h3>Truffle Avocado Smash</h3>
+                        <p>Sourdough bread, haas avocado, poached organic egg, and truffle oil drizzle.</p>
+                    </div>
+                </div>
+
+                <!-- Pastries -->
+                <div class="menu-item" data-category="pastry">
+                    <div class="item-img">
+                        <img src="assets/croissant.png" alt="Butter Croissant">
+                        <span class="price">$4.00</span>
+                    </div>
+                    <div class="item-info">
+                        <h3>Artisan Butter Croissant</h3>
+                        <p>Three-day fermented dough, French butter, baked to flaky gold perfection.</p>
+                    </div>
+                </div>
+                
+                <!-- More items can be added here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">AURA<span>.</span></a>
+                <p>Crafting moments, one cup at a time.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Our Beans</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <h4>Join the Club</h4>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your email address">
+                    <button class="btn-icon">➔</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Aura Coffee & Bistro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
